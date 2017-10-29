@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  alexanetcoredockertemplate:
+    image: alexanetcoredockertemplate
+    build:
+      context: ./AlexaNetCoreDockerTemplate
+      dockerfile: Dockerfile
